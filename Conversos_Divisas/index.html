@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de divisas</title>
+</head>
+<body>
+    <main class="main_content">
+        <div class="container" id="container">
+            <figure class="img_container">
+                <img src="./imges/logo.svg" alt="logotipo">
+            </figure>
+            <form action="">
+                <div class="cantidad_dinero">
+                    <input type="text" placeholder="Cantidad de dinero:" class="formulario" id="dineroAConvertir">
+                </div>
+                <div class="seleccion">
+                    <select name="moneda_elegida" id="moneda_elegida" class="formulario">
+                        <option value="no_seleccion">Elige tu moneda</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="p_mexicano">Peso Mexicano</option>
+                        <option value="p_colombiano">Peso Colombiano</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra_esterlina">Libra Esterlina</option>
+                    </select>
+                    <select name="moneda_convertir" id="moneda_convertir" class="formulario">
+                        <option value="no_seleccion">Elige tu moneda</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="p_mexicano">Peso Mexicano</option>
+                        <option value="p_colombiano">Peso Colombiano</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra_esterlina">Libra Esterlina</option>
+                    </select>
+                    <input type="button" value="Convertir" onclick="tomarDatos()" class="formulario">
+                </div>
+            </form>           
+        </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
