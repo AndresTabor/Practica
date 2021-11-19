@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Formulario de inscripción</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </header>
+    <main id="main">
+        <div id="container">
+            <form action="" id="survey-form">
+                <div>
+                    <label for="name" id="name-label">Nombre</label>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Ingrese su nombre"
+                    class="controls"
+                    required>
+                </div>
+                <div>
+                    <label for="email" id="email-label">Correo electrónico</label>
+                    <input 
+                    type="email"
+                    name="email" 
+                    id="email"
+                    placeholder="Ingrese su email"
+                    class="controls"
+                    required>
+                </div>
+                <div>
+                    <label for="number" id="number-label">Edad</label>
+                    <input 
+                    type="number"
+                    name="age" 
+                    id="number"
+                    placeholder="Ingrese su edad"
+                    min="1"
+                    max="120"
+                    class="controls"
+                    required>
+                </div>
+                <div>
+                    <label for="Ocupacion">Ocupacion actual</label>
+                    <select name="Ocupacion" id="dropdown" class="controls" required>
+                        <option disabled selected value>Seleccione su ocupacion</option>
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="full">Empleado tiempo completo</option>
+                        <option value="part">Empleado medio tiempo</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Por que medio se entero de la oferta</p>
+                    <label>
+                        <input
+                          name="medio"
+                          value="redes-sociales"
+                          type="radio"
+                          class=""
+                          checked
+                        /> Redes sociales
+                    </label>
+                    <label>
+                        <input
+                          name="medio"
+                          value="web"
+                          type="radio"
+                          class=""            
+                        /> Sitio web
+                    </label>
+                    <label>
+                        <input
+                          name="medio"
+                          value="familiar"
+                          type="radio"
+                          class=""                              
+                        /> Familiar o conocido
+                    </label>
+                    <label>
+                        <input
+                          name="medio"
+                          value="familiar"
+                          type="radio"
+                          class=""                              
+                        /> Medios impresos
+                    </label>
+                </div>
+                <div>
+                    <p>Seleccione el/los cursos de su interés</p>
+                    <label>
+                        <input
+                          name="courses"
+                          value="diseño-ux-ui"
+                          type="checkbox"                                                      
+                        /> Diseño UX-UI
+                    </label>
+                    <label>
+                        <input
+                          name="courses"
+                          value="frontend"
+                          type="checkbox"                                                      
+                        /> Desarollo Web Frontend
+                    </label>
+                    <label>
+                        <input
+                          name="courses"
+                          value="backend"
+                          type="checkbox"                                                      
+                        /> Desarollo Web Backend
+                    </label>
+                    <label>
+                        <input
+                          name="courses"
+                          value="data"
+                          type="checkbox"                                                      
+                        /> Data Science
+                    </label>
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios o sugerencias</label>
+                    <textarea 
+                    name="comentarios" 
+                    id="comentarios" 
+                    cols="30" 
+                    rows="10" 
+                    placeholder="Ingrese su comentario aqui"></textarea>
+                </div>
+                <div>
+                    <input 
+                    type="submit" 
+                    value="Enviar" 
+                    id="submit" 
+                    class="controls">
+                </div>
+            </form>       
+        </div>
+    </main>
+</body>
+</html>

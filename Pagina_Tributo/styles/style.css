@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body{
+	font-family: 'Shippori Antique B1', sans-serif;
+	text-align:center;
+	margin:0;
+	font-size: 1.6rem;
+	background-color:#18171c ;
+	color: whitesmoke;
+}
+h1, h2, h3{
+	font-family: 'Archivo Black', sans-serif;
+}
+#title ~ p , #section-title{
+	color:#FDB827;
+}
+img{
+	max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption{
+	background-color:#552583;
+	max-width:1256px;
+	padding: 10px 0;
+	margin: auto;
+}
+#tribute-info{
+	padding-top:30px;
+}
+ul{
+	max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.76;
+}
+li {
+  margin: 10px 0;
+}
+strong, li{
+	color:#552583;
+}
+span{
+	color:whitesmoke;
+}
+h3{
+	color: whitesmoke;
+}
+cite{
+	color:#FDB827;
+}
+a:visited{
+	color:#FDB827;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    color: whitesmoke;   
+}
+body::before{
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    background-image: linear-gradient(
+      115deg,
+      rgba(81, 176, 200, 0.8),
+      rgba(112, 112, 185, 0.7)
+    ),
+    url(https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    text-align: center;
+    padding: 2rem 0 0 0;
+    line-height: 2.5rem;
+}
+h1{
+    text-shadow: 1px 1px 2px rgb(36, 35, 35);;
+}
+#description{
+    font-style: italic;
+}
+#main{
+    margin: auto;
+    text-align: center;
+}
+#survey-form{
+    background: rgba(7, 9, 15, 0.4);
+    width: 35%;
+    margin: 1.5rem auto;
+    padding: 2.5rem 2rem;
+    border-radius: 0.25rem;
+}
+#survey-form div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.controls{
+    height: 2.2rem;
+    margin-top: 0.5rem;
+    padding-left: 0.7rem;
+    border-radius:0.25rem;
+    font-size: medium;
+    font-weight: 700;
+    color: slategrey;
+    border: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.controls:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(66, 166, 248, 0.5);
+}
+p{
+    margin-bottom: 0.5rem; 
+}
+#comentarios{
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+    padding-left: 0.7rem;
+    border-radius:0.25rem;
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: slategrey;
+    border: none;
+}
+#comentarios:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(66, 166, 248, 0.5);
+}
+#submit{
+    background-color: rgb(68, 173, 68);
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 480px){
+    body{
+        font-size: 0.9rem;
+    }
+    header{
+        padding: 2rem 1.4rem 0 1.4rem;
+        line-height: 1.8rem;  
+    }
+    h1{
+        margin-bottom: 1rem;
+    }
+    #survey-form{
+        width: 80%;
+    }
+    #survey-form .controls{
+        font-size: small; 
+    }
+    #survey-form #comentarios{
+        font-size: small;
+    }
+}
