@@ -1,0 +1,119 @@
+{
+    "cats": [
+        {
+            "img": "../images/cats/matilde.jpg",
+            "name": "Matilde",
+            "sexo": "Hembra",
+            "raza": "British Shorthair",
+            "edad": "6 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Juan Jesus",
+            "img-contacto": "../imgages/users/juan.png",
+            "id":1
+
+        },
+        {
+            "img": "../images/cats/pelusa.jpg",
+            "name": "Pelusa",
+            "sexo": "Hembra",
+            "raza": "Birmano",
+            "edad": "1 año",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Pelusa es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Maria Dolores",
+            "img-contacto": "../imgages/users/dolores.png",
+            "id":2
+
+        },
+        {
+            "img": "../images/cats/kity.jpg",
+            "name": "Kity",
+            "sexo": "Hembra",
+            "raza": "Bombay",
+            "edad": "14 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Kity es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Juan Jesus",
+            "img-contacto": "../imgages/users/juan.png",
+            "id":3
+
+        },
+        {
+            "img": "../images/cats/bombon.jpg",
+            "name": "Bombón",
+            "sexo": "Hembra",
+            "raza": "Gato americano",
+            "edad": "3 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Maria Dolores",
+            "img-contacto": "../imgages/users/dolores.png",
+            "id":4
+
+        }
+    ],
+
+    "dogs": [
+        {
+            "img": "../images/dogs/chester.jpg",
+            "name": "Chester",
+            "sexo": "Macho",
+            "raza": "Golden retriever",
+            "edad": "4 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Juan Jesus",
+            "img-contacto": "../imgages/users/juan.png",
+            "id":5
+
+        },
+        {
+            "img": "../images/dogs/papi.jpg",
+            "name": "Papi",
+            "sexo": "Macho",
+            "raza": "Chihuahua",
+            "edad": "9 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Pelusa es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Maria Dolores",
+            "img-contacto": "../imgages/users/dolores.png",
+            "id":6
+
+        },
+        {
+            "img": "../images/dogs/rocky.jpg",
+            "name": "Rocky",
+            "sexo": "Macho",
+            "raza": "Rotweiler",
+            "edad": "3 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["Cariñoso", "Inquieto", "Jugueton"],
+            "historia": "Kity es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Juan Jesus",
+            "img-contacto": "../imgages/users/juan.png",
+            "id":7
+
+        },
+        {
+            "img": "../images/dogs/pelusa.jpg",
+            "name": "Pelusa",
+            "sexo": "Hembra",
+            "raza": "Bichón frisé",
+            "edad": "6 meses",
+            "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "contacto":"Maria Dolores",
+            "img-contacto": "../imgages/users/dolores.png",
+            "id":8
+
+        }
+    ]
+}
