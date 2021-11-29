@@ -7,10 +7,10 @@
             "raza": "British Shorthair",
             "edad": "6 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
             "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Juan Jesus",
-            "img-contacto": "../imgages/users/juan.png",
+            "imgContacto": "./images/users/juan.png",
             "id":1
 
         },
@@ -21,10 +21,10 @@
             "raza": "Birmano",
             "edad": "1 año",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
             "historia": "Pelusa es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Maria Dolores",
-            "img-contacto": "../imgages/users/dolores.png",
+            "imgContacto": "./images/users/dolores.png",
             "id":2
 
         },
@@ -35,10 +35,10 @@
             "raza": "Bombay",
             "edad": "14 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
             "historia": "Kity es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Juan Jesus",
-            "img-contacto": "../imgages/users/juan.png",
+            "imgContacto": "./images/users/juan.png",
             "id":3
 
         },
@@ -49,10 +49,10 @@
             "raza": "Gato americano",
             "edad": "3 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
             "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Maria Dolores",
-            "img-contacto": "../imgages/users/dolores.png",
+            "imgContacto": "./images/users/dolores.png",
             "id":4
 
         }
@@ -66,10 +66,10 @@
             "raza": "Golden retriever",
             "edad": "4 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
-            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
+            "historia": "Chester es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Juan Jesus",
-            "img-contacto": "../imgages/users/juan.png",
+            "imgContacto": "./images/users/juan.png",
             "id":5
 
         },
@@ -80,10 +80,10 @@
             "raza": "Chihuahua",
             "edad": "9 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
-            "historia": "Pelusa es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
+            "historia": "Papi es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Maria Dolores",
-            "img-contacto": "../imgages/users/dolores.png",
+            "imgContacto": "./images/users/dolores.png",
             "id":6
 
         },
@@ -95,9 +95,9 @@
             "edad": "3 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
             "personalidad": ["Cariñoso", "Inquieto", "Jugueton"],
-            "historia": "Kity es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "historia": "Rocky es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Juan Jesus",
-            "img-contacto": "../imgages/users/juan.png",
+            "imgContacto": "./images/users/juan.png",
             "id":7
 
         },
@@ -108,10 +108,10 @@
             "raza": "Bichón frisé",
             "edad": "6 meses",
             "ubicacion": "4140 Parker Rd. Allentown, New Mexico 31134",
-            "personalidad": ["jugueton", "Inquieto", "Tierno"],
-            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "personalidad": ["Jugueton", "Inquieto", "Tierno"],
+            "historia": "Pelusa es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "contacto":"Maria Dolores",
-            "img-contacto": "../imgages/users/dolores.png",
+            "imgContacto": "./images/users/dolores.png",
             "id":8
 
         }

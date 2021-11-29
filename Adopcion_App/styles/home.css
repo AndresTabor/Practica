@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+:root{
+    --first-color : #FEC7D7;
+    --second-color: #0E172C; 
+    --title: 24px;
+    --txt: 16px;
+    --subtitle: 18px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: var(--first-color);
+    font-family: 'Nunito', sans-serif;   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: var(--title);
+    line-height: 33px;
+    margin: 48px 24px 32px 24px;
+}
+#categoria-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 0px;
+    position: absolute;
+    width: 327px;
+    height: 113px;
+    left: 24px;
+    top: 146px;
+}
+.btn-categoria{
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    width: 155px;
+    height: 80px;
+}
+.img-container{
+    width: 64px;
+    height: 64px;
+    left: 8px;
+    top: 8px;
+    border-radius: 50%;
+    background-color: #85D1CE;
+    /* margin: 0px 16px; */
+}
+#dogs{
+    background-image: url(../images/categoriaDogs.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+#cats{
+    background-image: url(../images/categoriaCats.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    
+}
+.parrafos-categoria{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: var(--txt);
+    color: white;
+    letter-spacing: 0.005em;
+    padding-top: 16px;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: #FFFFFE;
+    width: 100%;
+    height: 100%;
+}
+.navb{
+    width: 375px;
+    height: 72px;
+}
+.card-container{
+    border-radius: 16px;
+    width: 156px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px; 
+}
+.efecto{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 26.42%, #000000 99.33%);
+    border-radius: 16px;
+    position: relative;
+    padding: 0px;
+    width: 340px;
+    height: 548px;
+}
+.detector{
+    border-radius: 16px;
+    position: relative;
+    bottom: 130%;
+    padding: 0px;
+    width: 156px;
+    height: 250px; 
+}
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 32%;
+    margin: 24px 0 300px 0;
+    padding: 0px;
+    width: 340px;
+    height: 548px; 
+}
+.description-container{
+    position: relative;
+    top: -70px;
+    padding-left: 10px;
+}
+.navegacion {
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+    color: #85D1CE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+a:visited{
+    color: #85D1CE;
+}
+.selected{
+    background-color: var(--second-color);
+    border-radius: 80px;
+    padding: 8px 16px;
+}

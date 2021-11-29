@@ -1,0 +1,23 @@
+h1{
+    align-self: flex-start;
+}
+#contenedor-elementos{
+    top: 12%;
+}
+.navegacion {
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+    color: #85D1CE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+.selected{
+    background-color: var(--second-color);
+    border-radius: 80px;
+    padding: 8px 16px;
+}

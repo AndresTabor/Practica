@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/perfil.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <nav class="fixed-bottom navb">
+            <ul class="navegacion">
+                <li><a href="./home.html"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 22V12H15V22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </a></li>
+                <li><a href="./messege.html"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.3333 11.5C21.3367 12.8199 21.0283 14.1219 20.4333 15.3C19.7277 16.7118 18.643 17.8992 17.3007 18.7293C15.9584 19.5594 14.4115 19.9994 12.8333 20C11.5134 20.0035 10.2114 19.6951 9.03325 19.1L3.33325 21L5.23325 15.3C4.63818 14.1219 4.32981 12.8199 4.33325 11.5C4.33386 9.92179 4.77386 8.37488 5.60397 7.03258C6.43408 5.69028 7.62151 4.6056 9.03325 3.90003C10.2114 3.30496 11.5134 2.99659 12.8333 3.00003H13.3333C15.4176 3.11502 17.3863 3.99479 18.8624 5.47089C20.3385 6.94699 21.2183 8.91568 21.3333 11V11.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </a></li>
+                <li><a href="./favoritos.html"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_170_343)">
+                    <path d="M21.5069 4.61012C20.9961 4.09912 20.3897 3.69376 19.7222 3.4172C19.0548 3.14064 18.3394 2.99829 17.6169 2.99829C16.8944 2.99829 16.179 3.14064 15.5115 3.4172C14.8441 3.69376 14.2376 4.09912 13.7269 4.61012L12.6669 5.67012L11.6069 4.61012C10.5752 3.57842 9.1759 2.99883 7.71687 2.99883C6.25783 2.99883 4.85856 3.57842 3.82687 4.61012C2.79517 5.64181 2.21558 7.04108 2.21558 8.50012C2.21558 9.95915 2.79517 11.3584 3.82687 12.3901L4.88687 13.4501L12.6669 21.2301L20.4469 13.4501L21.5069 12.3901C22.0179 11.8794 22.4232 11.2729 22.6998 10.6055C22.9763 9.93801 23.1187 9.2226 23.1187 8.50012C23.1187 7.77763 22.9763 7.06222 22.6998 6.39476C22.4232 5.7273 22.0179 5.12087 21.5069 4.61012V4.61012Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_170_343">
+                    <rect width="24" height="24" fill="white" transform="translate(0.666748)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                    
+                    </a></li>
+                <li class="selected"><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#85D1CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#85D1CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Perfil</span>
+                    </a></li>  
+            </ul>
+
+        </nav>
+    </header>
+    <main id="contenedor">
+        <!-- <h1 name="arriba">Perfil</h1>
+        <div id="perfil-data">
+            <div 
+            id="img-container"
+            style="background-image: url(./images/users/juan.png);"></div>
+            <div id="info-container">
+                <p class="nombre">Juan Mendez</p>
+                <p class="proceso">Editar Cuenta</p>
+            </div>
+        </div>
+        <div id="form-container">
+            <form class="form-group">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text" class="form-control mt-2" placeholder="" name="name" autoComplete="off" 
+                    placeholder="" required/>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Apellido</label>
+                    <input id="lastName" type="text" class="form-control mt-2" name="lastName" autoComplete="off"
+                    placeholder="" required/>
+
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Correo</label>
+                    <input id="inputCorreo" type="text" class="form-control mt-2" name="correo" autoComplete="off"
+                    placeholder="" required/>                
+
+                </div>
+
+                <div class="d-grid gap-2 mx-auto mt-2">
+                    <button type="submit" class="btn btn-dark" id="guardar">
+                        Guardar
+                    </button>
+                </div>
+            </form>                
+            
+        </div> -->
+        
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./scripts/perfil.js"></script>
+</html>

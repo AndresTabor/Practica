@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "img": "./images/users/dolores.png",
+      "nombre": "Dolores",
+      "apellido": "Lopez",
+      "correo": "dolores@gmail.com"
+    },
+    {
+      "img": "./images/users/juan.png",
+      "nombre": "Alberto",
+      "apellido": "Cortés",
+      "correo": "juan@gmail.com",
+      "id": 2
+    }
+  ]
+}
