@@ -3,7 +3,12 @@ const element = document.getElementById('contenedor-elementos');
 
 if(localStorage.getItem('favoritos')){
     favoritos = JSON.parse(localStorage.getItem('favoritos'));
-    console.log(favoritos)
+}
+
+if(localStorage.getItem('categoriaActual')){
+    categoriaActual = localStorage.getItem('categoriaActual')
+}else{
+    categoriaActual = 'dogs/'
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
@@ -21,6 +26,21 @@ document.addEventListener('DOMContentLoaded', () =>{
         </div>
         `
     })
+
+})
+
+element.addEventListener('click', (e) => {
+    const cardDetalles = e.target.classList.contains("detector");
+    const id = e.target.id;
+    
+    //busco la  data de la card y envio al localStorage                         
+    if(cardDetalles){
+    //     const data = await getPets(dataEnpoint + categoriaActual);
+    const petView = favoritos.find(pet => pet.id === Number(id));
+    localStorage.setItem("Detail",JSON.stringify(petView));
+    localStorage.setItem('categoriaActual', categoriaActual);
+    window.location.href = "../details.html"
+    }  
 
 })
 
