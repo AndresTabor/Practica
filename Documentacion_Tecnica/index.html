@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Documentacion JavaScript</header>
+        <ul>
+            <li><a href="#Conceptos_básicos" class="nav-link">Conceptos básicos</a> </li>
+            <li><a href="#Declaraciones" class="nav-link">Declaraciones</a> </li>
+            <li><a href="#Estructuras_y_tipos_de_datos" class="nav-link">Estructuras y tipos de datos</a> </li>
+            <li><a href="#Conversión_de_tipos_de_datos" class="nav-link">Conversión de tipos de datos</a> </li>
+            <li><a href="#Objetos_literales_mejorados" class="nav-link">Objetos literales mejorados</a> </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <h1>Documentacion JavaScript</h1>
+        <section class="main-section" id="Conceptos_básicos">
+            <header class="titulo">Conceptos básicos</header>
+            <p>JavaScript está influenciado sobre todo por la sintaxis de Java, C y C++, pero también ha sido influenciado por Awk, Perl y Python.</p>
+            <p>JavaScript distingue entre mayúsculas y minúsculas (es case-sensitive) y utiliza el conjunto de caracteres Unicode. Por ejemplo, la palabra «Früh» (que significa "temprano" en Alemán) se podría usar como el nombre de una variable.</p>
+            <code>let Früh = "foobar"</code>
+            <p>Pero, la variable früh no es la misma que Früh porque JavaScript distingue entre mayúsculas y minúsculas. <br>
+                El texto fuente del script JavaScript se escanea de izquierda a derecha y se convierte en una secuencia de elementos de entrada que son fragmentos, caracteres de control, terminadores de línea, comentarios o espacios en blanco. (Los espacios, tabulaciones y caracteres de nueva línea se consideran espacios en blanco).
+            </p>
+            <p class="subtitle">Comentarios</p>
+            <p>La sintaxis de los comentarios es la misma que en C++ y en muchos otros lenguajes:</p>
+            <code>// un comentario de una línea
+
+                /* este es un comentario
+                 * más largo, de varias líneas
+                 */
+                
+                /* Sin embargo, no puedes /* anidar comentarios */ SyntaxError */</code>
+        </section>
+        <section class="main-section" id="Declaraciones">
+            <header class="titulo">Declaraciones</header>
+            <p>
+                (nuevo en ECMAScript 2015). Un tipo de dato cuyas instancias son únicas e inmutables
+            </p>
+            <ul>
+                <li>Con la palabra clave var. Por ejemplo, var x = 42. Esta sintaxis se puede utilizar para declarar variables locales y globales, dependiendo del contexto de ejecución.                    
+                </li>
+                <li>Con la palabra clave const o let. Por ejemplo, let y = 13. Esta sintaxis se puede utilizar para declarar una variable local con ámbito de bloque. (Ve el Ámbito de variables abajo.)
+                </li>
+            </ul>
+            <p>También puedes simplemente asignar un valor a una variable. Por ejemplo, x = 42. Este formulario crea una variable global no declarada. También genera una advertencia estricta de JavaScript. Las variables globales no declaradas a menudo pueden provocar un comportamiento inesperado. Por lo tanto, se desaconseja utilizar variables globales no declaradas.</p>
+        </section>
+        <section class="main-section" id="Estructuras_y_tipos_de_datos">
+            <header class="titulo">Estructuras y tipos de datos</header>
+            <p class="subtitle">Tipos de datos</p>
+            <p>El último estándar ECMAScript define ocho tipos de datos:</p>
+            
+            <ul>
+                <li>
+                    <ol>
+                        <l><strong>1-Boleano:</strong> true y false. <br></l>
+                        <l><strong>2-Null:</strong> Una palabra clave especial que denota un valor nulo. (Dado que JavaScript distingue entre mayúsculas y minúsculas, null no es lo mismo que Null, NULL o cualquier otra variante). <br></l>
+                        <l><strong>3-Undefine:</strong> Una propiedad de alto nivel cuyo valor no está definido. <br></l>
+                        <l><strong>4-Number:</strong> Un número entero o un número con coma flotante. Por ejemplo: 42 o 3.14159. <br></l>
+                        <l><strong>5-BigInt:</strong> Un número entero con precisión arbitraria. Por ejemplo: 9007199254740992n. <br></l>
+                        <l><strong>6-String:</strong> Una secuencia de caracteres que representan un valor de texto. Por ejemplo: "Hola" <br></l>
+                        <l><strong>7-Symbol:</strong> (nuevo en ECMAScript 2015). Un tipo de dato cuyas instancias son únicas e inmutables <br></l>
+                    </ol>
+                </li>
+                <li>y Object</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Conversión_de_tipos_de_datos">
+            <header class="titulo">Conversión de tipos de datos</header>
+            <p>JavaScript es un lenguaje tipado dinámicamente. Esto significa que no tienes que especificar el tipo de dato de una variable cuando la declaras. También significa que los tipos de datos se convierten automáticamente según sea necesario durante la ejecución del script.</p>
+            <ul>
+                <li>
+                    <p>Así, por ejemplo, puedes definir una variable de la siguiente manera:</p>
+                    <code>var answer = 42;</code> 
+                </li>
+                <li>
+                    <p>Y luego, puedes asignarle una cadena a esa misma variable, por ejemplo:</p>       
+                    <code>answer = 'Gracias por todo el pescado...';</code>
+                </li>
+            </ul>          
+        </section>
+        <section class="main-section" id="Objetos_literales_mejorados">
+            <header class="titulo">Objetos literales mejorados</header>
+            <p>En ES2015, los objeto literales se amplían para admitir la configuración del prototipo en la construcción, la abreviatura para asignaciones foo: foo, la definición de métodos, la realización de llamadas a super y el cálculo de nombres de propiedades con expresiones.</p>
+            <p>Juntos, estos también acercan los objetos literales y las declaraciones de clase, y permiten que el diseño basado en objetos se beneficie de algunas de las mismas conveniencias.</p>
+            <code>var obj = {
+                // __proto__
+                __proto__: theProtoObj,
+                // Abreviatura de "handler: handler"
+                handler,
+                // Métodos
+                toString() {
+                 // Llamadas a super
+                 return 'd ' + super.toString();
+                },
+                // Nombres de propiedad calculados (dinámicos)
+                [ 'prop_' + (() => 42)() ]: 42
+            };
+            </code>
+        </section>
+    </main>
+</body>
+</html>
